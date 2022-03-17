@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Country">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/CountryN"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#6FFFFFFF"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#030000"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <ImageView
+            android:id="@+id/Flag"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/white" />
+
+        <TextView
+            android:id="@+id/Capital"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#6FFFFFFF"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#030000"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/CDescription"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#6FFFFFFF"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#FA070000"
+            app:fontFamily="@font/caveat" />
+
+        <ImageView
+            android:id="@+id/TSpot"
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/white" />
+
+        <TextView
+            android:id="@+id/LabelT"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#6FFFFFFF"
+            android:text="Popular Tourist Spot"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#0A0000"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/Details"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:background="#6FFFFFFF"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#070000"
+            app:fontFamily="@font/caveat" />
+
+        <Button
+            android:id="@+id/backB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:background="#46000000"
+            android:onClick="back"
+            android:text="Back" />
+
+    </LinearLayout>
+</ScrollView>

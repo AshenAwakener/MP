@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Currency">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="CURRENCY"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <EditText
+            android:id="@+id/Peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:hint="Enter Peso You Want to Convert:"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/Convert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="#46000000"
+            android:onClick="Money_Convert"
+            android:text="Convert" />
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asia"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/Asia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_money"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Europe"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/Europe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_money"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#090000"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="North America"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/NorthA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_money"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#020000"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Africa"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/Africa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_money"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#020000"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/label4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="South America"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#050000"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/SouthA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_money"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#070000"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/label5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Australia"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <TextView
+            android:id="@+id/Australia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_money"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#0C0000"
+            android:textStyle="bold"
+            app:fontFamily="@font/caveat" />
+
+        <Button
+            android:id="@+id/backB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="#46000000"
+            android:onClick="back"
+            android:text="Back" />
+
+    </LinearLayout>
+</ScrollView>
